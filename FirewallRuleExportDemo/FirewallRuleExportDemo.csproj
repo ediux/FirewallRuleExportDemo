@@ -104,9 +104,12 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Database\Check_ExecuteTestResult.sql" />
     <Content Include="Database\CreateDatabase.sql" />
+    <Content Include="Database\Create_SyncTestData.sql" />
     <Content Include="Database\InsertTestData.sql" />
     <Content Include="Database\QueryTestData.sql" />
+    <Content Include="Database\usp_SyncFirewallRules.sql" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
