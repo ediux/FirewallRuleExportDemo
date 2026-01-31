@@ -97,6 +97,7 @@
     <None Include="App.config" />
     <None Include="Documentation\CheckPoint_API_Implementation_Guide.md" />
     <None Include="Documentation\FortiGate_API_Implementation_Guide.md" />
+    <None Include="Documentation\UPDATE_SUMMARY.md" />
     <None Include="Install-Packages.ps1" />
     <None Include="INSTALLATION.md" />
     <None Include="packages.config" />
@@ -110,7 +111,7 @@
     <Content Include="Database\InsertTestData.sql" />
     <Content Include="Database\QueryTestData.sql" />
     <Content Include="Database\usp_SyncFirewallRules.sql" />
-    <Content Include="ReadMe.txt" />
+    <None Include="README_CHT.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
